@@ -1,10 +1,11 @@
 import React from 'react'
 import CoinSwitch from './app/app.tsx'
-import { createStore } from 'redux'
+import { createStore, applyMiddleware } from 'redux'
 import { Provider, connect } from 'react-redux'
+import thunk from "redux-thunk";
 
 import rootReducer from './app/redux/reducers'
-const store = createStore(rootReducer)
+const store = createStore(rootReducer, applyMiddleware(thunk))
 
 const App = () => {
   return (

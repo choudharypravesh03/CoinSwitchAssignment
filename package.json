@@ -22,7 +22,8 @@
     "react-native-screens": "^3.8.0",
     "react-navigation-stack": "react-navigation/stack",
     "react-redux": "^7.2.5",
-    "redux": "^4.1.1"
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
