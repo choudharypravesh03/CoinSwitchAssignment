@@ -1,7 +1,7 @@
 import React from 'react'
 import CoinSwitch from './app/app.tsx'
 import { createStore, applyMiddleware } from 'redux'
-import { Provider, connect } from 'react-redux'
+import { Provider } from 'react-redux'
 import thunk from "redux-thunk";
 
 import rootReducer from './app/redux/reducers'
